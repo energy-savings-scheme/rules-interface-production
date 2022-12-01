@@ -72,43 +72,7 @@ export default function CertificateEstimatorRefrigerators(props) {
 
   return (
     <Fragment>
-      {/* Search section */}
-      <br></br>
-      <HeroBanner
-        wide
-        style="dark"
-        image={{
-          alt: 'res ref',
-          src: 'ResidentialFridgeFreezerRemoval.jpeg',
-        }}
-        intro="Energy Savings Scheme and Peak Demand Reduction Scheme"
-        title="Safeguard Certificate Estimator"
-      />
-
       <div className="nsw-container">
-        <div className="nsw-grid nsw-grid--spaced">
-          <div className="nsw-col nsw-col-md-12">
-            <br></br>
-            <br></br>
-            <h2 className="nsw-content-block__title">
-              Residential Spare Refrigerator or Freezer Removal Certificate Estimator
-            </h2>
-            {/* <h5 className="nsw-content-block__copy">
-              Energy Savings Scheme and Peak Demand Reduction Scheme
-            </h5> */}
-            <br></br>
-            <p className="nsw-content-block__copy">
-              Estimate your ESCs and PRCs for the Residential Spare Refrigerator or Freezer Removal
-              Activity (C1 in the ESS and RF1 in the PDRS) by answering the following questions.
-            </p>
-            <p className="nsw-content-block__copy">
-              Please keep in mind that the results are indicative only and cannot be promoted or
-              published.{' '}
-            </p>
-          </div>
-        </div>
-
-        <br></br>
         <ProgressIndicator step={stepNumber} of={2} style={{ width: '80%' }} />
 
         <Fragment>

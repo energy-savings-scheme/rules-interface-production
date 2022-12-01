@@ -126,7 +126,7 @@ export default function CertificateEstimatorWH(props) {
   return (
     <Fragment>
       {/* Search section */}
-      <br></br>
+      {/* <br></br>
       <HeroBanner
         wide
         style="dark"
@@ -136,19 +136,16 @@ export default function CertificateEstimatorWH(props) {
         }}
         intro="Energy Savings Scheme and Peak Demand Reduction Scheme"
         title="Safeguard Certificate Estimator"
-      />
+      /> */}
 
       <div className="nsw-container">
-        <div className="nsw-grid nsw-grid--spaced">
+        {/* <div className="nsw-grid nsw-grid--spaced">
           <div className="nsw-col nsw-col-md-12">
             <br></br>
             <br></br>
             <h2 className="nsw-content-block__title">
               Commercial Heat Pump Water Heater Certificate Estimator
             </h2>
-            {/* <h5 className="nsw-content-block__copy">
-              Energy Savings Scheme and Peak Demand Reduction Scheme
-            </h5> */}
             <br></br>
             <p className="nsw-content-block__copy">
               Estimate your ESCs and PRCs for the Commercial Heat Pump Water Heater Activity (F16 in
@@ -160,10 +157,8 @@ export default function CertificateEstimatorWH(props) {
             </p>
           </div>
         </div>
-        <br></br>
-        {/* <p className="nsw-content-block__copy">
-          <b> Commercial heat pump water heater certificate estimator </b>
-        </p> */}
+        <br></br> */}
+
         <ProgressIndicator step={stepNumber} of={3} style={{ width: '80%' }} />
 
         <Fragment>

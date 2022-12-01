@@ -163,44 +163,8 @@ export default function CertificateEstimatorRC(props) {
 
   return (
     <Fragment>
-      <br></br>
-      <HeroBanner
-        wide
-        style="dark"
-        image={{
-          alt: 'RF2',
-          src: '/CommercialRefrigeratedCabinet.jpg',
-        }}
-        intro="Energy Savings Scheme and Peak Demand Reduction Scheme"
-        title="Safeguard Certificate Estimator"
-      />
 
       <div className="nsw-container">
-        <div className="nsw-grid nsw-grid--spaced">
-          <div className="nsw-col nsw-col-md-12">
-            <br></br>
-            <br></br>
-            <h2 className="nsw-content-block__title">
-              Commercial Refrigerated Cabinet Certificate Estimator
-            </h2>
-            {/* <h5 className="nsw-content-block__copy">
-              Energy Savings Scheme and Peak Demand Reduction Scheme
-            </h5> */}
-            <br></br>
-            <p className="nsw-content-block__copy">
-              Estimate your ESCs and PRCs for the Commercial Refrigerated Cabinet Activity (F1 in
-              the ESS and RF2 in the PDRS) by answering the following questions.
-            </p>
-            <p className="nsw-content-block__copy">
-              Please keep in mind that the results are indicative only and cannot be promoted or
-              published.{' '}
-            </p>
-          </div>
-        </div>
-        <br></br>
-        {/* <p className="nsw-content-block__copy">
-          <b> Commercial refrigerated cabinet certificate estimator</b>
-        </p> */}
 
         <ProgressIndicator step={stepNumber} of={3} style={{ width: '80%' }} />
 

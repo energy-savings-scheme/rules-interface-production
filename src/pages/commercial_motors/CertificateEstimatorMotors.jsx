@@ -84,7 +84,7 @@ export default function CertificateEstimatorMotors(props) {
 
   return (
     <Fragment>
-      <br></br>
+      {/* <br></br>
       <HeroBanner
         wide
         style="dark"
@@ -94,17 +94,14 @@ export default function CertificateEstimatorMotors(props) {
         }}
         intro="Energy Savings Scheme and Peak Demand Reduction Scheme"
         title="Safeguard Certificate Estimator"
-      />
+      /> */}
 
       <div className="nsw-container">
-        <div className="nsw-grid nsw-grid--spaced">
+        {/* <div className="nsw-grid nsw-grid--spaced">
           <div className="nsw-col nsw-col-md-12">
             <br></br>
             <br></br>
             <h2 className="nsw-content-block__title">Commercial Motors Certificate Estimator</h2>
-            {/* <h5 className="nsw-content-block__copy">
-              Energy Savings Scheme and Peak Demand Reduction Scheme
-            </h5> */}
             <br></br>
             <p className="nsw-content-block__copy">
               Estimate your ESCs and PRCs for the Commercial Motors (Refrigeration or Ventilation)
@@ -115,9 +112,9 @@ export default function CertificateEstimatorMotors(props) {
               published.{' '}
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <br></br>
+        {/* <br></br> */}
 
         <ProgressIndicator step={stepNumber} of={2} style={{ width: '80%' }} />
 
