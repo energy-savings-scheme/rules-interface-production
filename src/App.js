@@ -104,18 +104,18 @@ function App() {
 
   return (
     <Router>
-      <Header variables={variables} />
+      {/* <Header variables={variables} /> */}
 
       {loading && <SpinnerFullscreen />}
 
       <Switch>
         <Route path="/" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <Homepage />
         </Route>
 
         <Route path="/commercial-ac-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorHVAC
             entities={entities}
             variables={variables}
@@ -129,7 +129,7 @@ function App() {
         </Route>
 
         <Route path="/commercial-wh-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorWH
             entities={entities}
             variables={variables}
@@ -140,7 +140,7 @@ function App() {
           />
         </Route>
         <Route path="/residential-ac-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb />   */}
           <CertificateEstimatorResidentialAC
             entities={entities}
             variables={variables}
@@ -153,7 +153,7 @@ function App() {
           />
         </Route>
         <Route path="/refrigerated-cabinet-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorRC
             entities={entities}
             variables={variables}
@@ -166,7 +166,7 @@ function App() {
           />
         </Route>
         <Route path="/pool-pumps-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorPP
             entities={entities}
             variables={variables}
@@ -177,7 +177,7 @@ function App() {
           />
         </Route>
         <Route path="/commercial-motors-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorMotors
             entities={entities}
             variables={variables}
@@ -188,7 +188,7 @@ function App() {
           />
         </Route>
         <Route path="/residential-refrigerators-estimator" exact>
-          <Breadcrumb />
+          {/* <Breadcrumb /> */}
           <CertificateEstimatorRefrigerators
             entities={entities}
             variables={variables}
@@ -201,7 +201,7 @@ function App() {
         <Route path="*">Not Found</Route>
       </Switch>
 
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

@@ -170,9 +170,7 @@ export default function CertificateEstimatorResidentialAC(props) {
 
   return (
     <Fragment>
-
       <div className="nsw-container">
-
         <ProgressIndicator step={stepNumber} of={3} style={{ width: '80%' }} />
 
         <Fragment>

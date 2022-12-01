@@ -15,7 +15,7 @@ import '@fontsource/public-sans/600.css';
 export default function Homepage(props) {
   return (
     <Fragment>
-      <br></br>
+      {/* <br></br>
       <HeroBanner
         wide
         style="dark"
@@ -25,39 +25,12 @@ export default function Homepage(props) {
         }}
         intro="Energy Savings Scheme and Peak Demand Reduction Scheme"
         title="Safeguard Certificate Estimator"
-      />
+      /> */}
 
       <div class="nsw-section nsw-section--white">
         <div class="nsw-container">
           <div class="nsw-layout">
             <div class="nsw-layout__main">
-              <div className="nsw-grid nsw-grid--spaced" style={{ fontFamily: 'sans-serif' }}>
-                <div className="nsw-col nsw-col-md-12">
-                  {/* <h2 className="nsw-content-block__title">Safeguard Certificate Estimator</h2>
-                  <h5 className="nsw-content-block__copy">
-                    Energy Savings Scheme and Peak Demand Reduction Scheme
-                  </h5> */}
-                  {/* <br></br> */}
-                  <p className="nsw-content-block__copy">
-                    Use our Safeguard Certificate Estimator to get an idea of how many Energy
-                    Savings Certificates (ESCs) and Peak Demand Reduction Certificates (PRCs) your
-                    activity may qualify for. Remember, results are an indication only and cannot be
-                    promoted or published.
-                  </p>
-                  <p className="nsw-content-block__copy">
-                    The Estimator is based on the latest Energy Savings Scheme rule and Peak Demand
-                    Reduction Scheme rule. To complete the certificate estimation you may need
-                    product information from the IPART Product Registry or GEMS Registry.
-                  </p>
-                  <p className="nsw-content-block__copy">
-                    If you have any questions or feedback about this tool, please contact{' '}
-                    <a href={`mailto:sustainability@environment.nsw.gov.au`}>
-                      sustainability@environment.nsw.gov.au
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <br></br>
               <h2 className="nsw-content-block__title">Which activity are you interested in?</h2>
             </div>
           </div>

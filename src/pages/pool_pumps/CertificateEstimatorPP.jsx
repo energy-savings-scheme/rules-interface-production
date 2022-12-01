@@ -73,9 +73,7 @@ export default function CertificateEstimatorPP(props) {
 
   return (
     <Fragment>
-
       <div className="nsw-container">
-
         <ProgressIndicator step={stepNumber} of={2} style={{ width: '80%' }} />
 
         <Fragment>
